@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ayowainc.demoapk"
+    xmlns:dist="http://schemas.android.com/apk/distribution">
+
+    <dist:module dist:instant="true" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="@xml/backup_descriptor">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+
+        <service
+            android:name="com.ayowainc.demoapk.Background_Music.MusicServiceActivity"
+            android:enabled="true" />
+
+        <activity android:name="com.ayowainc.demoapk.Category_Levels.Marketing.MarketingBeginnerActivity" />
+        <activity android:name="com.ayowainc.demoapk.Category_Levels.Marketing.MarketingProfessionalActivity" />
+        <activity android:name="com.ayowainc.demoapk.Category_Levels.Marketing.MarketingWorldClassActivity" />
+        <activity android:name="com.ayowainc.demoapk.Category_Levels.History.HistoryWorldClassActivity" />
+        <activity android:name="com.ayowainc.demoapk.Category_Levels.History.HistoryProfessionalActivity" />
+        <activity android:name="com.ayowainc.demoapk.Category_Levels.History.HistoryBeginnerActivity" />
+        <activity android:name="com.ayowainc.demoapk.Category_Levels.Programming.ProgrammingBeginnerActivity" />
+        <activity android:name="com.ayowainc.demoapk.Category_Levels.Programming.ProgrammingProfessionalActivity" />
+        <activity android:name="com.ayowainc.demoapk.Category_Levels.Programming.ProgrammingWorldClassActivity" />
+        <activity android:name="com.ayowainc.demoapk.Category_Levels.Multimedia.MultimediaWorldClassActivity" />
+        <activity android:name="com.ayowainc.demoapk.Category_Levels.Multimedia.MultimediaProfessionalActivity" />
+        <activity android:name="com.ayowainc.demoapk.Category_Levels.Multimedia.MultimediaBeginnerActivity" />
+        <activity android:name="com.ayowainc.demoapk.Category_Levels.All_Knowledge.AllKnowledgeQuizActivity" />
+        <activity android:name="com.ayowainc.demoapk.AboutUsActivity" />
+        <activity android:name="com.ayowainc.demoapk.User.UserProfileActivity" />
+        <activity android:name="com.ayowainc.demoapk.MenuHomeScreenActivity" />
+        <activity android:name="com.ayowainc.demoapk.User.SignUpActivity" />
+        <activity android:name="com.ayowainc.demoapk.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ayowainc.demoapk.User.LoginActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

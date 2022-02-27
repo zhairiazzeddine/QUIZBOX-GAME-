@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">QuizCloud</string>
+
+    <string name="sign_hello">HELLO THERE, </string>
+    <string name="sign_welcome">WELCOME BACK</string>
+    <string name="signin_hint">Sign to continue</string>
+    <string name="New_User">New User? Sign Up</string>
+    <string name="Already_user">Already a user? Sign In</string>
+
+    <string name="m_heading">Marketing Quiz</string>
+    <string name="an_heading">Programming Quiz</string>
+    <string name="his_heading">History Quiz</string>
+    <string name="mult_heading">Multimedia Quiz</string>
+    <string name="allknow_heading">All Know. Quiz</string>
+
+    <string name="successfull">You completed your quiz successfully</string>
+    <string name="try_agin">Try harder next time!</string>
+    <string name="genius">Genius!</string>
+    <string name="sad">Feeling Sad?</string>
+    <string name="crying_message">You are not ready for next level. Try Again!</string>
+
+    <!-- CHANGE ADMOB STRINGS HERE-->
+    <string name="admob_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="iter_id">ca-app-pub-3n940256099942544/1033173712</string>
+    <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="about_learn">Learn and have fun with:</string>
+    <string name="app_Name">QuizBox</string>
+    <string name="App_Version">Version 1.0.0</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="enter_your_email">Enter your email to receive a</string>
+    <string name="verification_code">Verification code</string>
+    <string name="email">Email</string>
+    <string name="categories">Categories</string>
+    <string name="welcome">WELCOME,</string>
+    <string name="full_name">Full Name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="welcome_to_the_quizbox">Welcome to the QuizBox</string>
+    <string name="press_start_to_continue">Press START to continue</string>
+    <string name="start">START</string>
+    <string name="password_hint">Password</string>
+    <string name="user_info">USER INFO</string>
+    <string name="don_t_cry">Don\'t Cry!</string>
+    <string name="twenty_score">20% Score</string>
+    <string name="quiz">Quiz</string>
+    <string name="box">Box</string>
+    <string name="learn_and_upgrade">Learn and Upgrade</string>
+    <string name="try_again">Try Again</string>
+    <string name="choose_your_preferred_level">Choose your preferred Level</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="fifty_score" tools:ignore="StringFormatInvalid">50% Score</string>
+    <string name="congrats">Congrats!</string>
+    <string name="seventy_score">70% Score</string>
+    <string name="next_level">Next Level</string>
+    <string name="hundred_score">100% Score</string>
+    <string name="question_number_countdown">1/10</string>
+    <string name="share_question">Share Question</string>
+    <string name="next">Next</string>
+    <string name="todo">QuizBox Image</string>
+
+
+</resources>

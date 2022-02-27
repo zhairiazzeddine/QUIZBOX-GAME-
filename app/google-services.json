@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "790843139732",
+    "project_id": "fir-quiz-bc10f",
+    "storage_bucket": "fir-quiz-bc10f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790843139732:android:a9ba75b1ccdcdf97f37681",
+        "android_client_info": {
+          "package_name": "com.ayowainc.demoapk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790843139732-b8om25u4ljfnilcn51utd7ju7tmbq53h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA61ihhAdlbyD9B9b3ecFAN3x5Uklf4wY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790843139732-b8om25u4ljfnilcn51utd7ju7tmbq53h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

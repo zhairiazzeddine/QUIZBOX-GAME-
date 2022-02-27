@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_home"
+                android:title="Home" />
+        </group>
+
+        <item android:title="User">
+
+            <menu>
+
+                <group android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/user_profile"
+                        android:icon="@drawable/ic_person_black_24dp"
+                        android:title="Profile" />
+
+                    <item
+                        android:id="@+id/logout"
+                        android:icon="@drawable/ic_exit_to_app"
+                        android:title="Logout" />
+
+                </group>
+
+            </menu>
+        </item>
+
+        <item android:title="More">
+
+            <menu>
+
+                <group android:checkableBehavior="none">
+
+                    <item
+                        android:id="@+id/rate"
+                        android:icon="@drawable/ic_rate_review"
+                        android:title="Rate Us" />
+                    <item
+                        android:title="Invite Friends"
+                        android:icon="@drawable/ic_favorite" />
+                    <item
+                        android:icon="@drawable/ic_question"
+                        android:title="FAQ" />
+                    <item
+                        android:icon="@drawable/ic_pp"
+                        android:title="Private Policy" />
+                    <item
+                        android:id="@+id/about"
+                        android:icon="@drawable/ic_gamepad"
+                        android:title="About App" />
+
+                </group>
+
+            </menu>
+        </item>
+
+    </menu>

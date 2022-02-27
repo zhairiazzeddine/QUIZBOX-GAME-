@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_main_bg"
+    tools:context=".SplashScreenActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/Logloading"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:lottie_rawRes="@raw/quizbox_animation"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/sp_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/qb_logo"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/sp_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to the QuizBox"
+            android:layout_marginTop="170dp"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto"/>
+
+        <TextView
+            android:id="@+id/sp_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Press START to continue"
+            android:layout_marginTop="10dp"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/righteous"/>
+
+        <Button
+            android:id="@+id/start_btn"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/go_gra_btn"
+            android:layout_marginTop="100dp"
+            android:textColor="@color/white"
+            android:text="START"
+            android:fontFamily="@font/righteous"
+            android:textSize="16sp"/>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
